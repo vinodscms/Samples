@@ -1,0 +1,36 @@
+group 'com.lab'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.test.HelloWorld'
+
+sourceCompatibility = 1.7
+
+compileJava.doLast { println 'Java compilation completed' }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+task hello(dependsOn: 'compileJava') {
+    group 'MyNewTaskGroup'
+    description 'The hello task greets Gradle"'
+    doFirst {
+        println 'Hello Vinod'
+    }
+    doLast {
+        println 'Bye bye Vinod'
+    }
+}
+
+task invokedAfterCompileJava(dependsOn: 'compileJava')  {
+    doLast {
+        println 'This will be invoked right after the compileJava task is done'
+    }
+}

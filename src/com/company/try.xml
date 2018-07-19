@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<orderHistoryResponse>
+    <order>
+        <id>5abb5bae2193453c3ccf8818</id>
+        <orderId>840973400</orderId>
+        <siteOrderId>840973400</siteOrderId>
+        <origSource>OMS</origSource>
+        <origChannel>OMS_RTE</origChannel>
+        <storeentId>30151</storeentId>
+        <placedTS>2018-03-28 04:08:48</placedTS>
+        <placedDate>2018-03-28 04:08:48.0</placedDate>
+        <totalProduct>235.31</totalProduct>
+        <totalTax>17.06</totalTax>
+        <totalShipping>6.25</totalShipping>
+        <totalTaxShipping>0.0</totalTaxShipping>
+        <totalAdjustment>0.0</totalAdjustment>
+        <lastUpdateTS>2018-03-28 08:15:46</lastUpdateTS>
+        <status>CMP</status>
+        <numberOfItems>1</numberOfItems>
+        <numberOfPayments>1</numberOfPayments>
+        <HAUtilityDiscount>0.0</HAUtilityDiscount>
+        <additionalDiscount>0.0</additionalDiscount>
+        <searsCardDiscount>0.0</searsCardDiscount>
+        <paypalDiscount>0.0</paypalDiscount>
+        <user>
+            <ssoId>10880012</ssoId>
+            <memberId>10880012</memberId>
+            <sywrNumber>7081630000143447</sywrNumber>
+            <firstName>John</firstName>
+            <lastName>Cena</lastName>
+            <emailAddress>return_testk@automation.com</emailAddress>
+            <primaryPhoneNum>7274234743</primaryPhoneNum>
+        </user>
+        <billingAddress>
+            <addressID>115849471</addressID>
+            <address1>12 , lakewood</address1>
+            <address2></address2>
+            <city>Houston</city>
+            <stateProv>TX</stateProv>
+            <country>US</country>
+            <zipCode>77002</zipCode>
+            <firstName>John</firstName>
+            <lastName>Cena</lastName>
+            <primaryPhoneNum>7274234743</primaryPhoneNum>
+            <emailAddress>return_testk@automation.com</emailAddress>
+        </billingAddress>
+        <items>
+            <orderitemsId>202166159</orderitemsId>
+            <itemNumber>011W949829110001</itemNumber>
+            <itemStoreId>30151</itemStoreId>
+            <partNum>011W949829110001</partNum>
+            <partDesc>T-fal Banquet 12 Inch Pan Grey</partDesc>
+            <price>235.31</price>
+            <quantity>1</quantity>
+            <totalProduct>235.31</totalProduct>
+            <totalTax>17.06</totalTax>
+            <totalAdjustment>0.00000</totalAdjustment>
+            <shippingCharge>6.25</shippingCharge>
+            <shippingtaxAmt>0.0</shippingtaxAmt>
+            <shippingDate>2018-03-29</shippingDate>
+            <requestedShippingDate>2018-03-29</requestedShippingDate>
+            <promisedAvailableDate>2018-03-31 00:00:00</promisedAvailableDate>
+            <reservationNum>161709707</reservationNum>
+            <sywrPoints/>
+            <itemTypeCd>Parent</itemTypeCd>
+            <divNum>11</divNum>
+            <upcCd>032406041943</upcCd>
+            <origLineNum>1</origLineNum>
+            <ffmCenterId>TW</ffmCenterId>
+            <pickupStoreNum>0780</pickupStoreNum>
+            <destAddress>
+                <addressID>115849473</addressID>
+                <address1>N Lakewood 12</address1>
+                <address2></address2>
+                <city>Chicago</city>
+                <stateProv>IL</stateProv>
+                <country>US</country>
+                <zipCode>60606</zipCode>
+                <firstName>test</firstName>
+                <lastName>user</lastName>
+                <primaryPhoneNum>9878972398</primaryPhoneNum>
+                <emailAddress>return_testk@automation.com</emailAddress>
+            </destAddress>
+            <tracking>
+                <trackingID>1Z4E1Y171310109554</trackingID>
+                <lastUpdate>2018-03-28 08:15:03.0</lastUpdate>
+                <carrier>UPS</carrier>
+                <trackingURL>https://wwwapps.ups.com/WebTracking/processInputRequest?HTMLVersion=5.0&amp;sort_by=status&amp;term_warn=yes&amp;tracknums_displayed=5&amp;TypeOfInquiryNumber=T&amp;loc=en_US&amp;AgreeToTermsAndConditions=yes&amp;track.x=24&amp;track.y=12&amp;trackNums=</trackingURL>
+            </tracking>
+            <tracking>
+                <trackingID>1Z4E1Y171310109554</trackingID>
+                <dateShipped>2018-03-28 08:00:00.0</dateShipped>
+                <carrier>UPS</carrier>
+                <trackingURL>https://wwwapps.ups.com/WebTracking/processInputRequest?HTMLVersion=5.0&amp;sort_by=status&amp;term_warn=yes&amp;tracknums_displayed=5&amp;TypeOfInquiryNumber=T&amp;loc=en_US&amp;AgreeToTermsAndConditions=yes&amp;track.x=24&amp;track.y=12&amp;trackNums=</trackingURL>
+            </tracking>
+            <status>
+                <code>DELIVERY</code>
+                <desc>DELIVERY</desc>
+                <updatedTS>2018-03-28 08:15:03.0</updatedTS>
+            </status>
+            <discounts>
+                <sywrMbrId>7081630000143447</sywrMbrId>
+                <tranDT>2018-03-28</tranDT>
+                <tranTM>04:08:48</tranTM>
+                <discAmt>0.0</discAmt>
+            </discounts>
+            <attr>
+                <ref name="STORE_CUTOFF">16:45</ref>
+                <ref name="ITEM_HELD_TO_ENABLE_CANCEL">YES</ref>
+                <ref name="PA_SKIPPED"></ref>
+                <ref name="RECYCLE_FEE">0.0</ref>
+                <ref name="lwyCancel">false</ref>
+                <ref name="ALTERNATE_ITEM_ID"></ref>
+                <ref name="itemConditionDisplayName">New</ref>
+                <ref name="STORE_CUTOFF">16:45</ref>
+                <ref name="ITEM_HELD_TO_ENABLE_CANCEL">YES</ref>
+                <ref name="PA_SKIPPED"></ref>
+                <ref name="RECYCLE_FEE">0.0</ref>
+                <ref name="lwyCancel">false</ref>
+                <ref name="ALTERNATE_ITEM_ID"></ref>
+                <ref name="itemConditionDisplayName">New</ref>
+            </attr>
+            <shippingDiscount>0</shippingDiscount>
+            <environmentalFee>0.0</environmentalFee>
+            <gbSnapshotId>1521216040147</gbSnapshotId>
+            <returnTrackingDetails>
+                <returnTrackingId>1Z6987EX9000010418</returnTrackingId>
+                <retQty>1</retQty>
+                <returnTrackingStatus>ProcessUPS</returnTrackingStatus>
+            </returnTrackingDetails>
+        </items>
+        <releases>
+            <relNum>687440771</relNum>
+            <salescheckNum>78409994415000</salescheckNum>
+            <ffmCenterId>TW</ffmCenterId>
+            <ffmCenterDesc>TW</ffmCenterDesc>
+            <settlementDate>2018-03-28</settlementDate>
+            <relStatus>SHP</relStatus>
+            <itemId>202166159</itemId>
+            <payments>
+                <pmtOrderId>840973400</pmtOrderId>
+                <approvedAmt>258.62</approvedAmt>
+                <accountNum>476173******0010</accountNum>
+                <paymentMethod>Visa</paymentMethod>
+                <paymentSystem>CreditCard</paymentSystem>
+                <totalAmt>258.62</totalAmt>
+                <pluginName>CreditCard</pluginName>
+            </payments>
+        </releases>
+        <attr>
+            <ref name="SUBSTORE_ID">UC_K_DT</ref>
+            <ref name="eoOrder">false</ref>
+        </attr>
+        <attr>
+            <ref name="STORE_CUTOFF">16:45</ref>
+            <ref name="ITEM_HELD_TO_ENABLE_CANCEL">YES</ref>
+            <ref name="PA_SKIPPED"></ref>
+            <ref name="RECYCLE_FEE">0.0</ref>
+            <ref name="lwyCancel">false</ref>
+            <ref name="ALTERNATE_ITEM_ID"></ref>
+            <ref name="itemCondition">NEW</ref>
+            <ref name="itemConditionDisplayName">New</ref>
+        </attr>
+        <totalRefunds>null</totalRefunds>
+    </order>
+</orderHistoryResponse>
