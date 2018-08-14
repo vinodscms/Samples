@@ -9,7 +9,7 @@ public class PredicateExamples {
         System.out.println(greaterthan25.test(32));
 
         Dog dog = new Dog(6,88);
-        System.out.println(dog.getAge()+"-"+dog.getPower());
+        System.out.println(dog.toString());
 
         PredicateLibrary obj = new PredicateLibrary();
         obj.print();
@@ -52,5 +52,11 @@ class Dog {
 
     public void setPower(int power) {
         this.power = power;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Dog[age='%s', power='%s']",
+                age,power);
     }
 }
