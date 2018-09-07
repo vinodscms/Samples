@@ -1,5 +1,10 @@
 package com.company.patterns;
 
+
+/**
+ * Builds a composite and complex object and client class need not know the complexity of object creation
+ * ex: Menu creation, Pizza creation etc
+ */
 public class Builder
 {
     public static void main(String[] args)
