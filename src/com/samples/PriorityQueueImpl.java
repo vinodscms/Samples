@@ -29,7 +29,11 @@ public class PriorityQueueImpl {
 
         System.out.println("Queue After Poll : " + pq2);
 
-        EmployeeComparator ecmp = new EmployeeComparator();
+        //Old way of comparators
+        //EmployeeComparator ecmp = new EmployeeComparator();
+        //New way of comparator
+        Comparator<Employee> ecmp = Comparator.comparing(Employee::getSalary);
+
         PriorityQueue<Employee> employeePriorityQueue = new PriorityQueue<>(ecmp);
 
         employeePriorityQueue.add(new Employee("Edmund",115000));
@@ -43,17 +47,19 @@ public class PriorityQueueImpl {
         }
     }
 
-    private static class EmployeeComparator implements Comparator<Employee> {
+    /*private static class EmployeeComparator implements Comparator<Employee> {
         @Override
         public int compare(Employee o1, Employee o2) {
-            return o1.salary.compareTo(o2.salary);
+            return o1.getSalary().compareTo(o2.getSalary());
         }
-    }
+    }*/
 
     static class Employee {
         String name;
         Integer salary;
-        Employee(String name,Integer salary) {
+
+        Employee(String name, Integer salary) {
+            super();
             this.name= name;
             this.salary=salary;
         }
@@ -61,6 +67,10 @@ public class PriorityQueueImpl {
         public String toString(){
             return "Employee[" + name +"," +salary +"]";
         }
+        public String getName() {            return name;        }
+        public Integer getSalary() {            return salary;        }
+        public void setName(String name) {            this.name = name;        }
+        public void setSalary(Integer salary) {            this.salary = salary;        }
     }
 
 }
