@@ -1,5 +1,6 @@
 package com.testing;
 
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class Lambdas {
@@ -16,6 +17,19 @@ public class Lambdas {
         Predicate<Car> isRed =  (c) -> (c.getColor().equalsIgnoreCase("red"));
         System.out.println(isRed.test(car));
         System.out.println(isRed.test(car2));
+
+        //Function functional interface. Has apply method. Just like Predicate or BinaryOperator
+        Function<Integer,Integer> square = x -> x * x;
+        System.out.println(square.apply(3));
+
+        //OR from a Util class using :: operator
+        square = Lambdas::calculateSquare;
+        System.out.println(square.apply(4));
+
+    }
+
+    private static Integer calculateSquare(Integer a) {
+        return a * a;
     }
 }
 
@@ -40,6 +54,8 @@ interface OtherFunctionalInterface {
         return c + d;
     }
 }
+
+
 
 class Car {
     private String name;
