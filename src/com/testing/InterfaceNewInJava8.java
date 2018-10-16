@@ -1,4 +1,4 @@
-package com.company;
+package com.testing;
 
 public class InterfaceNewInJava8 implements Inter {
     public static void main(String args[]) {

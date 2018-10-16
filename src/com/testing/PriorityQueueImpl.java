@@ -1,4 +1,4 @@
-package com.samples;
+package com.testing;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
@@ -7,7 +7,7 @@ import java.util.concurrent.PriorityBlockingQueue;
 
 public class PriorityQueueImpl {
     public static void main(String args[]) {
-        int[] numbers = { 10, 1, 5, 3, 4, 7, 6, 2, 9, 8, 11 };
+        int[] numbers = { 10, 1, 5, 3, 4, 7, 6, 2, 9, 8, 11, 23, 5 };
         Queue<Integer> pq1 = new PriorityBlockingQueue<>();  //For thread safety or concurrency
         for (int n : numbers) {
             pq1.add(n);

@@ -1,4 +1,4 @@
-package com.company.patterns;
+package com.patterns;
 
 
 /**

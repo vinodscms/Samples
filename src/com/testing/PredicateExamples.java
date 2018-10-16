@@ -1,4 +1,4 @@
-package com.company;
+package com.testing;
 
 import java.util.function.Predicate;
 
