@@ -1,4 +1,4 @@
-package com.patterns;
+package com.company.patterns;
 
 public class FactoryMethod {
     public static void main(String[] args) {
