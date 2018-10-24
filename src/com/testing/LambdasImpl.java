@@ -66,6 +66,21 @@ public class LambdasImpl {
 
         System.out.println("-------------------------");
 
+        System.out.println("Anonymous inner class and lambda");
+        Runnable r1 = new Runnable() {
+            @Override
+            public void run() {
+                System.out.println("Hello world one!");
+            }
+        };
+
+        // Lambda Runnable
+        Runnable r2 = () -> System.out.println("Hello world two!");
+
+        // Run threads
+        r1.run();
+        r2.run();
+
     }
 
     private static Integer calculateSquare(Integer a) {
